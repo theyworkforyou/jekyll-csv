@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class Jekyll::Everypolitician::EducationTest < Minitest::Test
+class Jekyll::RemoteCsvTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Jekyll::Everypolitician::Education::VERSION
+    refute_nil ::Jekyll::RemoteCsv::VERSION
   end
 
   def site
@@ -14,6 +14,15 @@ class Jekyll::Everypolitician::EducationTest < Minitest::Test
     site.config['remote_csv']['education'] = {
       'source' => 'test/fixtures/education.csv'
     }
+  end
+
+  def add_people_collection_to_site
+    people = Jekyll::Collection.new(site, 'people')
+    path = File.join(site.source, "_people", "test.md")
+    person = Jekyll::Document.new(path, collection: people, site: site)
+    person.data['id'] = '22'
+    people.docs << person
+    site.collections['people'] = people
   end
 
   def test_it_populates_site_data_with_education
@@ -39,9 +48,7 @@ class Jekyll::Everypolitician::EducationTest < Minitest::Test
   end
 
   def test_collections_are_populated
-    site.config['everypolitician'] = {
-      'sources' => ['test/fixtures/ep-popolo-v1.0.json']
-    }
+    add_people_collection_to_site
     site.config['remote_csv']['education']['collections'] = [
       'people'
     ]
@@ -52,9 +59,7 @@ class Jekyll::Everypolitician::EducationTest < Minitest::Test
   end
 
   def test_overriding_csv_id_field
-    site.config['everypolitician'] = {
-      'sources' => ['test/fixtures/ep-popolo-v1.0.json']
-    }
+    add_people_collection_to_site
     site.config['remote_csv'] = {
       'education' => {
         'source' => 'test/fixtures/education_person_id.csv',
@@ -69,6 +74,6 @@ class Jekyll::Everypolitician::EducationTest < Minitest::Test
   end
 
   def test_it_has_a_low_priority
-    assert_equal :low, Jekyll::Everypolitician::Education::Generator.priority
+    assert_equal :low, Jekyll::RemoteCsv::Generator.priority
   end
 end
