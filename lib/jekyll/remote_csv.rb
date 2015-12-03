@@ -15,7 +15,6 @@ module Jekyll
         site.config['remote_csv'].each do |source_name, conf|
           csv_string = open(conf['source']).read
           csv_data = CSV.parse(csv_string, headers: true).map(&:to_hash)
-          site.data[source_name] = csv_data
           site.collections[source_name] = make_collection(site, source_name, conf, csv_data)
           next unless conf['collections']
           conf['collections'].each do |collection_name, key|
@@ -38,7 +37,7 @@ module Jekyll
       def make_collection(site, source_name, conf, csv_data)
         collection = Collection.new(site, source_name)
         csv_data.each do |item|
-          item_id_field = conf.fetch('item_id_field', item.keys.first)
+          item_id_field = conf.fetch('collection_slug_field', item.keys.first)
           path = File.join(site.source, "_#{source_name}", "#{Jekyll::Utils.slugify(item[item_id_field])}.md")
           doc = Document.new(path, collection: collection, site: site)
           doc.merge_data!(item)
