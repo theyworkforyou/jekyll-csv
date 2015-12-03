@@ -1,13 +1,13 @@
-# Jekyll::Everypolitician::Education [![Build Status](https://travis-ci.org/everypolitician/jekyll-everypolitician-education.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-everypolitician-education)
+# Jekyll::RemoteCsv [![Build Status](https://travis-ci.org/everypolitician/jekyll-remote_csv.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-remote_csv)
 
-Designed to be be used in conjunction with [jekyll-everypolitician](https://github.com/everypolitician/jekyll-everypolitician). This allows you to add a CSV of Education history to display for a person.
+This plugin allows you to specify remote CSVs to be included in `site.data`. It also provides a way for you to add this data to collection documents.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jekyll-everypolitician-education'
+gem 'jekyll-remote_csv'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-everypolitician-education
+    $ gem install jekyll-remote_csv
 
 ## Usage
 
@@ -78,7 +78,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/everypolitician/jekyll-everypolitician-education.
+Bug reports and pull requests are welcome on GitHub at https://github.com/everypolitician/jekyll-remote_csv.
 
 
 ## License
