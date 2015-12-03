@@ -1,6 +1,6 @@
 # Jekyll::Everypolitician::Education [![Build Status](https://travis-ci.org/everypolitician/jekyll-everypolitician-education.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-everypolitician-education)
 
-Designed to bo be used in conjunction with [jekyll-everypolitician](https://github.com/everypolitician/jekyll-everypolitician). This allows you to add a CSV of Education history to display for a person.
+Designed to be be used in conjunction with [jekyll-everypolitician](https://github.com/everypolitician/jekyll-everypolitician). This allows you to add a CSV of Education history to display for a person.
 
 ## Installation
 
