@@ -1,0 +1,1556 @@
+{
+  "persons": [
+    {
+      "email": "a.ficini@conseil-national.mc",
+      "id": "b61c6f06-586a-4c6a-aa83-d58b5b2d4e93",
+      "identifiers": [
+        {
+          "identifier": "Alain-FICINI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/alain-ficini.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/alain-ficini.jpg"
+        }
+      ],
+      "name": "Alain FICINI",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/155-alain-ficini"
+        }
+      ]
+    },
+    {
+      "id": "58cf8f43-6778-4b2f-ba56-7b8f73532078",
+      "identifiers": [
+        {
+          "identifier": "Alexandre-BORDERO",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/a-bordero.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/a-bordero.jpg"
+        }
+      ],
+      "name": "Alexandre BORDERO"
+    },
+    {
+      "id": "c9dcf443-5b48-49f5-8cef-44200ad6f47b",
+      "identifiers": [
+        {
+          "identifier": "Anne-POYARD-VATRICAN",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/a-poyard-vatrican.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/a-poyard-vatrican.jpg"
+        }
+      ],
+      "name": "Anne POYARD-VATRICAN"
+    },
+    {
+      "id": "414c95ab-4bcd-4b12-aa97-b213f00cba7f",
+      "identifiers": [
+        {
+          "identifier": "Bernard-MARQUET",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/b-marquet.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/b-marquet.jpg"
+        }
+      ],
+      "name": "Bernard MARQUET"
+    },
+    {
+      "email": "b.pasquier@conseil-national.mc",
+      "id": "78eff3d1-a27f-4d2a-989f-3ba1c0c98e05",
+      "identifiers": [
+        {
+          "identifier": "Bernard-PASQUIER",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/bernard-pasquier.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/bernard-pasquier.jpg"
+        }
+      ],
+      "name": "Bernard PASQUIER",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/157-bernard-pasquier"
+        }
+      ]
+    },
+    {
+      "id": "1d93838e-6598-4d3c-a710-10eec9548461",
+      "identifiers": [
+        {
+          "identifier": "Brigitte-BOCCONE-PAGES",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/b-boccone-pages.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/b-boccone-pages.jpg"
+        }
+      ],
+      "name": "Brigitte BOCCONE-PAGES"
+    },
+    {
+      "id": "a73b564a-07bc-4bcd-8e28-a1b2eea8d110",
+      "identifiers": [
+        {
+          "identifier": "Bruno-BLANCHY",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/b-blanchy.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/b-blanchy.jpg"
+        }
+      ],
+      "name": "Bruno BLANCHY"
+    },
+    {
+      "email": "b.fresko@conseil-national.mc",
+      "id": "78b470d0-6ac1-4633-923a-ec6e0de78465",
+      "identifiers": [
+        {
+          "identifier": "Beatrice-FRESKO-ROLFO",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/beatrice-fresko-rolfo.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/beatrice-fresko-rolfo.jpg"
+        }
+      ],
+      "name": "Béatrice FRESKO-ROLFO",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/145-beatrice-fresko-rolfo"
+        }
+      ]
+    },
+    {
+      "email": "c.rougaignon-vernin@conseil-national.mc",
+      "id": "b7c88562-ce17-43a7-9844-f79d21438fcc",
+      "identifiers": [
+        {
+          "identifier": "Caroline-ROUGAIGNON-VERNIN",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/caroline-rougaignon-vernin.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/caroline-rougaignon-vernin.jpg"
+        }
+      ],
+      "name": "Caroline ROUGAIGNON-VERNIN",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/161-caroline-rougaignon-vernin"
+        }
+      ]
+    },
+    {
+      "id": "e213113f-89b9-4c04-a86e-030ea2efc520",
+      "identifiers": [
+        {
+          "identifier": "Catherine-FAUTRIER",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/c-fautrier.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/c-fautrier.jpg"
+        }
+      ],
+      "name": "Catherine FAUTRIER"
+    },
+    {
+      "email": "c.barilaro@conseil-national.mc",
+      "id": "79ddcd71-2532-4f83-97c9-51eb499d469c",
+      "identifiers": [
+        {
+          "identifier": "Christian-BARILARO",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/christian-barilaro.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/christian-barilaro.jpg"
+        }
+      ],
+      "name": "Christian BARILARO",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/143-christian-barilaro"
+        }
+      ]
+    },
+    {
+      "id": "1e408559-1801-48d0-9f1e-fe36f48200d8",
+      "identifiers": [
+        {
+          "identifier": "Christine-PASQUIER-CIULLA",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/c-pasquier-ciulla.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/c-pasquier-ciulla.jpg"
+        }
+      ],
+      "name": "Christine PASQUIER-CIULLA"
+    },
+    {
+      "email": "c.robino@conseil-national.mc",
+      "id": "790ecb6c-1b06-4cc2-bbde-93df5ca2d04e",
+      "identifiers": [
+        {
+          "identifier": "Christophe-ROBINO",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/christophe-robino.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/christophe-robino.jpg"
+        }
+      ],
+      "name": "Christophe ROBINO",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/159-christophe-robino"
+        }
+      ]
+    },
+    {
+      "id": "cf53bff8-0ad1-4acd-86c7-c3586d68e0af",
+      "identifiers": [
+        {
+          "identifier": "Christophe-SPILIOTIS-SAQUET",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/c-spiliotis-saquet.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/c-spiliotis-saquet.jpg"
+        }
+      ],
+      "name": "Christophe SPILIOTIS-SAQUET"
+    },
+    {
+      "email": "c.steiner@conseil-national.mc",
+      "id": "783a2833-98fb-4a4b-8957-c2f00fd49f49",
+      "identifiers": [
+        {
+          "identifier": "Christophe-STEINER",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/christophe-steiner.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/christophe-steiner.jpg"
+        }
+      ],
+      "name": "Christophe STEINER",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/138-christophe-steiner"
+        }
+      ]
+    },
+    {
+      "email": "c.boisson@conseil-national.mc",
+      "id": "4eb0dab7-0f82-4138-86fd-c919a8bfeeb0",
+      "identifiers": [
+        {
+          "identifier": "Claude-BOISSON",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/claude-boisson.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/claude-boisson.jpg"
+        }
+      ],
+      "name": "Claude BOISSON",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/151-claude-boisson"
+        }
+      ]
+    },
+    {
+      "id": "9cdeed97-6d9a-446f-9d9d-d757ad35da56",
+      "identifiers": [
+        {
+          "identifier": "Claude-CELLARIO",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/c-cellario.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/c-cellario.jpg"
+        }
+      ],
+      "name": "Claude CELLARIO"
+    },
+    {
+      "email": "d.boeri@conseil-national.mc",
+      "id": "58792ffa-85b5-4ece-b1f8-dbd8f7213689",
+      "identifiers": [
+        {
+          "identifier": "Daniel-BOERI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/daniel-boeri.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/daniel-boeri.jpg"
+        }
+      ],
+      "name": "Daniel BOERI",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/146-daniel-boeri"
+        }
+      ]
+    },
+    {
+      "id": "f69cfb45-1c64-4ebc-b440-7de4fe49bfab",
+      "identifiers": [
+        {
+          "identifier": "Daniel-RAYMOND",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/d-raymond.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/d-raymond.jpg"
+        }
+      ],
+      "name": "Daniel RAYMOND"
+    },
+    {
+      "email": "e.elena@conseil-national.mc",
+      "id": "c1272a5a-5439-4500-870d-2293cf7a66e5",
+      "identifiers": [
+        {
+          "identifier": "Eric-ELENA",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/eric-elena.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/eric-elena.jpg"
+        }
+      ],
+      "name": "Eric ELENA",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/154-eric-elena"
+        }
+      ]
+    },
+    {
+      "id": "21865150-43b2-4b43-8e9c-15adf89e8925",
+      "identifiers": [
+        {
+          "identifier": "Eric-GUAZZONNE",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/e-guazzonne.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/e-guazzonne.jpg"
+        }
+      ],
+      "name": "Eric GUAZZONNE"
+    },
+    {
+      "id": "25e19ea7-eda6-4c2c-bf12-51116d446f46",
+      "identifiers": [
+        {
+          "identifier": "Fabrice-NOTARI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/f-notari.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/f-notari.jpg"
+        }
+      ],
+      "name": "Fabrice NOTARI"
+    },
+    {
+      "id": "fb697241-3d14-4ff6-b9b3-07632411160c",
+      "identifiers": [
+        {
+          "identifier": "Guillaume-ROSE",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/g-rose.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/g-rose.jpg"
+        }
+      ],
+      "name": "Guillaume ROSE"
+    },
+    {
+      "id": "aa7df0a8-c160-4147-b8c2-ecaa6d839778",
+      "identifiers": [
+        {
+          "identifier": "Gerard-BERTRAND",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/g-bertrand.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/g-bertrand.jpg"
+        }
+      ],
+      "name": "Gérard BERTRAND"
+    },
+    {
+      "id": "ea1a18dc-05ae-4433-a1f5-8abfc27d05d9",
+      "identifiers": [
+        {
+          "identifier": "Henry-REY",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/h-rey.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/h-rey.jpg"
+        }
+      ],
+      "name": "Henry REY"
+    },
+    {
+      "email": "j.rit@conseil-national.mc",
+      "id": "c344c675-dfe7-401b-af68-768a2d9dd3bf",
+      "identifiers": [
+        {
+          "identifier": "Jacques-RIT",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/jacques-rit.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/jacques-rit.jpg"
+        }
+      ],
+      "name": "Jacques RIT",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/149-jacques-rit"
+        }
+      ]
+    },
+    {
+      "email": "jc.allavena@conseil-national.mc",
+      "id": "054bb1e0-7971-48ef-ae58-61e1c2f9c1e4",
+      "identifiers": [
+        {
+          "identifier": "Jean-Charles-ALLAVENA",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/jean-charles-allavena.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/jean-charles-allavena.jpg"
+        }
+      ],
+      "name": "Jean-Charles ALLAVENA",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/142-jean-charles-allavena"
+        }
+      ]
+    },
+    {
+      "id": "d85996fe-3009-4e16-b13a-050b13b4fbb3",
+      "identifiers": [
+        {
+          "identifier": "Jean-Charles-GARDETTO",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/jc-gardetto.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/jc-gardetto.jpg"
+        }
+      ],
+      "name": "Jean-Charles GARDETTO"
+    },
+    {
+      "email": "jf.robillon@conseil-national.mc",
+      "id": "1403f449-2ecf-471f-9a40-4fe141a8ac11",
+      "identifiers": [
+        {
+          "identifier": "Jean-Francois-ROBILLON",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/jean-francois-robillon.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/jean-francois-robillon.jpg"
+        }
+      ],
+      "name": "Jean-François ROBILLON",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/158-jean-francois-robillon"
+        }
+      ]
+    },
+    {
+      "id": "710adf51-ea34-4434-a25b-2084f8410b09",
+      "identifiers": [
+        {
+          "identifier": "Jean-Joseph-PASTOR",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/jj-pastor.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/jj-pastor.jpg"
+        }
+      ],
+      "name": "Jean-Joseph PASTOR"
+    },
+    {
+      "email": "jl.grinda@conseil-national.mc",
+      "id": "b032b05f-e481-49fc-a062-786121367d0a",
+      "identifiers": [
+        {
+          "identifier": "Jean-Louis-GRINDA",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/jean-louis-grinda.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/jean-louis-grinda.jpg"
+        }
+      ],
+      "name": "Jean-Louis GRINDA",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/147-jean-louis-grinda"
+        }
+      ]
+    },
+    {
+      "id": "a2b39831-b291-4503-86d0-1588cc7b46e2",
+      "identifiers": [
+        {
+          "identifier": "Jean-Luc-NIGIONI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/jl-nigioni.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/jl-nigioni.jpg"
+        }
+      ],
+      "name": "Jean-Luc NIGIONI"
+    },
+    {
+      "email": "jm.cucchi@conseil-national.mc",
+      "id": "1ca4231f-195d-46da-aae8-bd13b0403a70",
+      "identifiers": [
+        {
+          "identifier": "Jean-Michel-CUCCHI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/jean-michel-cucchi_2.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/jean-michel-cucchi_2.jpg"
+        }
+      ],
+      "name": "Jean-Michel CUCCHI",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/144-jean-michel-cucchi"
+        }
+      ]
+    },
+    {
+      "id": "451fa8a9-bbdb-428c-a14a-e6149a2718ae",
+      "identifiers": [
+        {
+          "identifier": "Jean-Pierre-LICARI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/jp-licari.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/jp-licari.jpg"
+        }
+      ],
+      "name": "Jean-Pierre LICARI"
+    },
+    {
+      "email": "lnp@conseil-national.mc",
+      "id": "95d751a1-ceb8-44a2-a26e-49cc15fcec36",
+      "identifiers": [
+        {
+          "identifier": "Laurent-NOUVION",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/laurent-nouvion.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/laurent-nouvion.jpg"
+        }
+      ],
+      "name": "Laurent NOUVION",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus"
+        }
+      ]
+    },
+    {
+      "email": "m.burini@conseil-national.mc",
+      "id": "2e704dfa-f7bd-4930-8550-6e521cc55ba0",
+      "identifiers": [
+        {
+          "identifier": "Marc-BURINI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/marc-burini.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/marc-burini.jpg"
+        }
+      ],
+      "name": "Marc BURINI",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/139-marc-burini"
+        }
+      ]
+    },
+    {
+      "id": "8a61bd82-a48d-458f-a492-17a1b7a34716",
+      "identifiers": [
+        {
+          "identifier": "Michele-DITTLOT",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/m-dittlot.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/m-dittlot.jpg"
+        }
+      ],
+      "name": "Michèle DITTLOT"
+    },
+    {
+      "email": "n.amoratti-blanc@conseil-national.mc",
+      "id": "b168e57b-f950-4722-9a57-93ba07102654",
+      "identifiers": [
+        {
+          "identifier": "Nathalie-AMORATTI-BLANC",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/nathalie-amoratti-blanc.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/nathalie-amoratti-blanc.jpg"
+        }
+      ],
+      "name": "Nathalie AMORATTI-BLANC",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/150-nathalie-amoratti-blanc"
+        }
+      ]
+    },
+    {
+      "id": "ac60c797-c5ea-4b0e-b976-3495e8de1615",
+      "identifiers": [
+        {
+          "identifier": "Nicole-MANZONE-SAQUET",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/n-manzone-saquet.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/n-manzone-saquet.jpg"
+        }
+      ],
+      "name": "Nicole MANZONE-SAQUET"
+    },
+    {
+      "email": "p.clerissi@conseil-national.mc",
+      "id": "6085eb00-212f-405e-b1f0-54dbafdadd71",
+      "identifiers": [
+        {
+          "identifier": "Philippe-CLERISSI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/philippe-clerissi.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/philippe-clerissi.jpg"
+        }
+      ],
+      "name": "Philippe CLERISSI",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/152-philippe-clerissi"
+        }
+      ]
+    },
+    {
+      "id": "b57e870d-f5e0-423f-80ae-3395dbab7d5a",
+      "identifiers": [
+        {
+          "identifier": "Pierre-LORENZI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/p-lorenzi.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/p-lorenzi.jpg"
+        }
+      ],
+      "name": "Pierre LORENZI"
+    },
+    {
+      "email": "p.svara@conseil-national.mc",
+      "id": "c541384f-8172-4bdf-95f5-eaca8370a821",
+      "identifiers": [
+        {
+          "identifier": "Pierre-SVARA",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/pierre-svara.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/pierre-svara.jpg"
+        }
+      ],
+      "name": "Pierre SVARA",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/162-pierre-svara"
+        }
+      ]
+    },
+    {
+      "id": "213d09b0-47c8-4c2b-9b46-bd9453f5efa2",
+      "identifiers": [
+        {
+          "identifier": "Roland-MARQUET",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/r-marquet.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2008-2013/r-marquet.jpg"
+        }
+      ],
+      "name": "Roland MARQUET"
+    },
+    {
+      "email": "s.lavagna@conseil-national.mc",
+      "id": "0633c42c-6d36-49cf-8427-245ffc12bfe3",
+      "identifiers": [
+        {
+          "identifier": "Sophie-LAVAGNA",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/sophie-lavagna.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/sophie-lavagna.jpg"
+        }
+      ],
+      "name": "Sophie LAVAGNA",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/141-sophie-lavagna"
+        }
+      ]
+    },
+    {
+      "id": "668e705c-f139-4eb4-89d7-fca38374dd84",
+      "identifiers": [
+        {
+          "identifier": "Stephane-VALERI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/s-valeri.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/s-valeri.jpg"
+        }
+      ],
+      "name": "Stéphane VALERI"
+    },
+    {
+      "email": "t.crovetto@conseil-national.mc",
+      "id": "030badfd-b11b-4977-bc43-484b8645f027",
+      "identifiers": [
+        {
+          "identifier": "Thierry-CROVETTO",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/thierry-crovetto.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/thierry-crovetto.jpg"
+        }
+      ],
+      "name": "Thierry CROVETTO",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/153-thierry-crovetto"
+        }
+      ]
+    },
+    {
+      "email": "t.poyet@conseil-national.mc",
+      "id": "a5caa3de-352b-4afe-b3cc-7bb25d36dd90",
+      "identifiers": [
+        {
+          "identifier": "Thierry-POYET",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/thierry-poyet.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/thierry-poyet.jpg"
+        }
+      ],
+      "name": "Thierry POYET",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/140-thierry-poyet"
+        }
+      ]
+    },
+    {
+      "id": "efef2583-2cc9-420c-838a-a79398abbbce",
+      "identifiers": [
+        {
+          "identifier": "Thomas-GIACCARDI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/t-giaccardi.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/t-giaccardi.jpg"
+        }
+      ],
+      "name": "Thomas GIACCARDI"
+    },
+    {
+      "email": "v.rossi@conseil-national.mc",
+      "id": "6ea1c2ed-3ae5-412b-9ec9-938fb8db35c0",
+      "identifiers": [
+        {
+          "identifier": "Valerie-ROSSI",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/les-elus/valerie-rossi.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/les-elus/valerie-rossi.jpg"
+        }
+      ],
+      "name": "Valérie ROSSI",
+      "sources": [
+        {
+          "url": "http://www.conseil-national.mc/index.php/les-elus/item/160-valerie-rossi"
+        }
+      ]
+    },
+    {
+      "id": "3b3c816d-e324-4f8f-9601-d1e0959bb7b5",
+      "identifiers": [
+        {
+          "identifier": "Vincent-PALMARO",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "image": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/v-palmaro.jpg",
+      "images": [
+        {
+          "url": "http://www.conseil-national.mc/images/histoire-conseil-national/elus-2003-2008/v-palmaro.jpg"
+        }
+      ],
+      "name": "Vincent PALMARO"
+    }
+  ],
+  "organizations": [
+    {
+      "classification": "party",
+      "id": "party/hm_horizon_monaco",
+      "name": "HM Horizon Monaco"
+    },
+    {
+      "classification": "party",
+      "id": "party/independent",
+      "name": "Independent"
+    },
+    {
+      "classification": "legislature",
+      "id": "legislature",
+      "identifiers": [
+        {
+          "identifier": "Q1127198",
+          "scheme": "wikidata"
+        }
+      ],
+      "name": "National Council",
+      "seats": 24
+    },
+    {
+      "classification": "party",
+      "id": "party/pep_(principauté_ethique_progrès)",
+      "name": "PEP (Principauté Ethique Progrès)"
+    },
+    {
+      "classification": "party",
+      "id": "party/pfm_(promotion_de_la_famille_monégasque)",
+      "name": "PFM (Promotion de la Famille Monégasque)"
+    },
+    {
+      "classification": "party",
+      "id": "party/pm_(parti_monégasque)",
+      "name": "PM (Parti Monégasque)"
+    },
+    {
+      "classification": "party",
+      "id": "party/r_renaissance",
+      "name": "R Renaissance"
+    },
+    {
+      "classification": "party",
+      "id": "party/r&e_rassemblement_et_enjeux",
+      "name": "R&E Rassemblement et Enjeux"
+    },
+    {
+      "classification": "party",
+      "id": "party/rpm_(rassemblement_pour_monaco)",
+      "name": "RPM (Rassemblement Pour Monaco)"
+    },
+    {
+      "classification": "party",
+      "id": "party/synergie_monégasque",
+      "name": "Synergie Monégasque"
+    },
+    {
+      "classification": "party",
+      "id": "party/udm_union_des_monégasques",
+      "name": "UDM Union Des Monégasques"
+    },
+    {
+      "classification": "party",
+      "id": "party/um_union_monégasque",
+      "name": "UM Union Monégasque"
+    },
+    {
+      "classification": "party",
+      "id": "party/unam_(union_nationale_pour_l'avenir_de_monaco),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "name": "UNAM (Union Nationale pour l'Avenir de Monaco), appartenant à la majorité UpM (Union pour Monaco)"
+    },
+    {
+      "classification": "party",
+      "id": "party/unam_union_nationale_pour_l'avenir_de_monaco_upm_(union_pour_monaco)",
+      "name": "UNAM Union Nationale pour l'Avenir de Monaco UpM (Union pour Monaco)"
+    },
+    {
+      "classification": "party",
+      "id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "name": "UP (Union pour la Principauté), appartenant à la majorité UpM (Union pour Monaco)"
+    },
+    {
+      "classification": "party",
+      "id": "party/up_union_pour_la_principauté_upm_(union_pour_monaco)",
+      "name": "UP Union pour la Principauté UpM (Union pour Monaco)"
+    }
+  ],
+  "meta": {
+    "sources": [
+      "https://morph.io/duncanparkes/monaco"
+    ]
+  },
+  "memberships": [
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "030badfd-b11b-4977-bc43-484b8645f027",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "054bb1e0-7971-48ef-ae58-61e1c2f9c1e4",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "0633c42c-6d36-49cf-8427-245ffc12bfe3",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "1403f449-2ecf-471f-9a40-4fe141a8ac11",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "1403f449-2ecf-471f-9a40-4fe141a8ac11",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/um_union_monégasque",
+      "organization_id": "legislature",
+      "person_id": "1403f449-2ecf-471f-9a40-4fe141a8ac11",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "1ca4231f-195d-46da-aae8-bd13b0403a70",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "1ca4231f-195d-46da-aae8-bd13b0403a70",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "1d93838e-6598-4d3c-a710-10eec9548461",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/up_union_pour_la_principauté_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "1d93838e-6598-4d3c-a710-10eec9548461",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/pm_(parti_monégasque)",
+      "organization_id": "legislature",
+      "person_id": "1e408559-1801-48d0-9f1e-fe36f48200d8",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "213d09b0-47c8-4c2b-9b46-bd9453f5efa2",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/unam_union_nationale_pour_l'avenir_de_monaco_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "21865150-43b2-4b43-8e9c-15adf89e8925",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "25e19ea7-eda6-4c2c-bf12-51116d446f46",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "25e19ea7-eda6-4c2c-bf12-51116d446f46",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/r&e_rassemblement_et_enjeux",
+      "organization_id": "legislature",
+      "person_id": "2e704dfa-f7bd-4930-8550-6e521cc55ba0",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "2e704dfa-f7bd-4930-8550-6e521cc55ba0",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/pep_(principauté_ethique_progrès)",
+      "organization_id": "legislature",
+      "person_id": "3b3c816d-e324-4f8f-9601-d1e0959bb7b5",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/unam_(union_nationale_pour_l'avenir_de_monaco),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "414c95ab-4bcd-4b12-aa97-b213f00cba7f",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "414c95ab-4bcd-4b12-aa97-b213f00cba7f",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/pfm_(promotion_de_la_famille_monégasque)",
+      "organization_id": "legislature",
+      "person_id": "451fa8a9-bbdb-428c-a14a-e6149a2718ae",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/synergie_monégasque",
+      "organization_id": "legislature",
+      "person_id": "4eb0dab7-0f82-4138-86fd-c919a8bfeeb0",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "4eb0dab7-0f82-4138-86fd-c919a8bfeeb0",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "58792ffa-85b5-4ece-b1f8-dbd8f7213689",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "58cf8f43-6778-4b2f-ba56-7b8f73532078",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "58cf8f43-6778-4b2f-ba56-7b8f73532078",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/independent",
+      "organization_id": "legislature",
+      "person_id": "6085eb00-212f-405e-b1f0-54dbafdadd71",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "6085eb00-212f-405e-b1f0-54dbafdadd71",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "668e705c-f139-4eb4-89d7-fca38374dd84",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "6ea1c2ed-3ae5-412b-9ec9-938fb8db35c0",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/rpm_(rassemblement_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "710adf51-ea34-4434-a25b-2084f8410b09",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/r&e_rassemblement_et_enjeux",
+      "organization_id": "legislature",
+      "person_id": "783a2833-98fb-4a4b-8957-c2f00fd49f49",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "783a2833-98fb-4a4b-8957-c2f00fd49f49",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "78b470d0-6ac1-4633-923a-ec6e0de78465",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/um_union_monégasque",
+      "organization_id": "legislature",
+      "person_id": "78eff3d1-a27f-4d2a-989f-3ba1c0c98e05",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "790ecb6c-1b06-4cc2-bbde-93df5ca2d04e",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "79ddcd71-2532-4f83-97c9-51eb499d469c",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/unam_(union_nationale_pour_l'avenir_de_monaco),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "8a61bd82-a48d-458f-a492-17a1b7a34716",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/unam_union_nationale_pour_l'avenir_de_monaco_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "8a61bd82-a48d-458f-a492-17a1b7a34716",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/r&e_rassemblement_et_enjeux",
+      "organization_id": "legislature",
+      "person_id": "95d751a1-ceb8-44a2-a26e-49cc15fcec36",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "95d751a1-ceb8-44a2-a26e-49cc15fcec36",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/unam_(union_nationale_pour_l'avenir_de_monaco),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "9cdeed97-6d9a-446f-9d9d-d757ad35da56",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/unam_union_nationale_pour_l'avenir_de_monaco_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "9cdeed97-6d9a-446f-9d9d-d757ad35da56",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/pfm_(promotion_de_la_famille_monégasque)",
+      "organization_id": "legislature",
+      "person_id": "a2b39831-b291-4503-86d0-1588cc7b46e2",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "a5caa3de-352b-4afe-b3cc-7bb25d36dd90",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/unam_(union_nationale_pour_l'avenir_de_monaco),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "a73b564a-07bc-4bcd-8e28-a1b2eea8d110",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "aa7df0a8-c160-4147-b8c2-ecaa6d839778",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "ac60c797-c5ea-4b0e-b976-3495e8de1615",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/um_union_monégasque",
+      "organization_id": "legislature",
+      "person_id": "b032b05f-e481-49fc-a062-786121367d0a",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "b168e57b-f950-4722-9a57-93ba07102654",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "b57e870d-f5e0-423f-80ae-3395dbab7d5a",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "b61c6f06-586a-4c6a-aa83-d58b5b2d4e93",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "b7c88562-ce17-43a7-9844-f79d21438fcc",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/r_renaissance",
+      "organization_id": "legislature",
+      "person_id": "c1272a5a-5439-4500-870d-2293cf7a66e5",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/pfm_(promotion_de_la_famille_monégasque)",
+      "organization_id": "legislature",
+      "person_id": "c344c675-dfe7-401b-af68-768a2d9dd3bf",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "c344c675-dfe7-401b-af68-768a2d9dd3bf",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/independent",
+      "organization_id": "legislature",
+      "person_id": "c541384f-8172-4bdf-95f5-eaca8370a821",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2013",
+      "on_behalf_of_id": "party/hm_horizon_monaco",
+      "organization_id": "legislature",
+      "person_id": "c541384f-8172-4bdf-95f5-eaca8370a821",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "c9dcf443-5b48-49f5-8cef-44200ad6f47b",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/up_union_pour_la_principauté_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "c9dcf443-5b48-49f5-8cef-44200ad6f47b",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "cf53bff8-0ad1-4acd-86c7-c3586d68e0af",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/independent",
+      "organization_id": "legislature",
+      "person_id": "cf53bff8-0ad1-4acd-86c7-c3586d68e0af",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "d85996fe-3009-4e16-b13a-050b13b4fbb3",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "d85996fe-3009-4e16-b13a-050b13b4fbb3",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "e213113f-89b9-4c04-a86e-030ea2efc520",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/rpm_(rassemblement_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "ea1a18dc-05ae-4433-a1f5-8abfc27d05d9",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "efef2583-2cc9-420c-838a-a79398abbbce",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2003",
+      "on_behalf_of_id": "party/up_(union_pour_la_principauté),_appartenant_à_la_majorité_upm_(union_pour_monaco)",
+      "organization_id": "legislature",
+      "person_id": "f69cfb45-1c64-4ebc-b440-7de4fe49bfab",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/2008",
+      "on_behalf_of_id": "party/udm_union_des_monégasques",
+      "organization_id": "legislature",
+      "person_id": "fb697241-3d14-4ff6-b9b3-07632411160c",
+      "role": "member"
+    }
+  ],
+  "events": [
+    {
+      "classification": "legislative period",
+      "end_date": "2008",
+      "id": "term/2003",
+      "name": "2003-2008",
+      "organization_id": "legislature",
+      "start_date": "2003"
+    },
+    {
+      "classification": "legislative period",
+      "end_date": "2013",
+      "id": "term/2008",
+      "name": "2008-2013",
+      "organization_id": "legislature",
+      "start_date": "2008"
+    },
+    {
+      "classification": "legislative period",
+      "end_date": "2018",
+      "id": "term/2013",
+      "name": "2013",
+      "organization_id": "legislature",
+      "start_date": "2013-02-21"
+    }
+  ],
+  "areas": [
+
+  ]
+}

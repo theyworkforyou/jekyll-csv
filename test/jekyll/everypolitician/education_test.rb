@@ -8,12 +8,13 @@ class Jekyll::Everypolitician::EducationTest < Minitest::Test
   def site
     @site ||= Jekyll::Site.new(Jekyll.configuration).tap do |s|
       s.config['everypolitician'] ||= {}
+      s.config['everypolitician']['sources'] = ['test/fixtures/ep-popolo-v1.0.json']
       s.config['everypolitician']['education'] = 'test/fixtures/education.csv'
     end
   end
 
   def setup
-    Jekyll::Everypolitician::Education::Generator.new(site.config).generate(site)
+    site.generate
   end
 
   def test_it_populates_site_data_with_education
