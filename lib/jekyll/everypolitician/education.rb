@@ -17,3 +17,12 @@ module Jekyll
     end
   end
 end
+
+Jekyll::Hooks.register :site, :pre_render do |site, payload|
+  site.collections['people'].docs.each do |person|
+    kuvakazim_identifier = person.data['identifiers'].find { |id| id['scheme'] == 'kuvakazim' }
+    next unless kuvakazim_identifier
+    kuvakazim_id = kuvakazim_identifier['identifier']
+    person.data['education_history'] = site.data['education'].find_all { |e| e['id'] == kuvakazim_id }
+  end
+end
