@@ -28,23 +28,28 @@ class Jekyll::RemoteCsvTest < Minitest::Test
   def test_it_populates_site_data_with_education
     site.generate
     refute_nil site.data['education']
+    refute_nil site.collections['education']
   end
 
   def test_the_correct_number_of_records_exist
     site.generate
     assert_equal 9, site.data['education'].size
+    assert_equal 9, site.collections['education'].docs.size
   end
 
   def test_records_are_parse_correctly
     site.generate
     assert_equal 'Edward G. Cross', site.data['education'].first['name']
+    assert_equal 'Edward G. Cross', site.collections['education'].docs.first.data['name']
   end
 
   def test_adding_another_collection
     site.config['remote_csv']['foo_bar'] = site.config['remote_csv']['education']
     site.generate
     assert_equal 9, site.data['education'].size
+    assert_equal 9, site.collections['education'].docs.size
     assert_equal 9, site.data['foo_bar'].size
+    assert_equal 9, site.collections['foo_bar'].docs.size
   end
 
   def test_collections_are_populated
@@ -75,5 +80,11 @@ class Jekyll::RemoteCsvTest < Minitest::Test
 
   def test_it_has_a_low_priority
     assert_equal :low, Jekyll::RemoteCsv::Generator.priority
+  end
+
+  def test_turning_csv_into_collection
+    site.generate
+    refute_nil site.collections['education']
+    assert_equal 9, site.collections['education'].docs.size
   end
 end
