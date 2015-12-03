@@ -37,4 +37,38 @@ class Jekyll::Everypolitician::EducationTest < Minitest::Test
     assert_equal 9, site.data['education'].size
     assert_equal 9, site.data['foo_bar'].size
   end
+
+  def test_collections_are_populated
+    site.config['everypolitician'] = {
+      'sources' => ['test/fixtures/ep-popolo-v1.0.json']
+    }
+    site.config['remote_csv']['education']['collections'] = [
+      'people'
+    ]
+    site.generate
+    person = site.collections['people'].docs.first
+    refute_nil person['education']
+    assert_equal 'University of Zimbabwe', person['education'].first['organisation_name']
+  end
+
+  def test_overriding_csv_id_field
+    site.config['everypolitician'] = {
+      'sources' => ['test/fixtures/ep-popolo-v1.0.json']
+    }
+    site.config['remote_csv'] = {
+      'education' => {
+        'source' => 'test/fixtures/education_person_id.csv',
+        'csv_id_field' => 'person_id',
+        'collections' => ['people']
+      }
+    }
+    site.generate
+    person = site.collections['people'].docs.first
+    refute_nil person['education']
+    assert_equal 'University of Zimbabwe', person['education'].first['organisation_name']
+  end
+
+  def test_it_has_a_low_priority
+    assert_equal :low, Jekyll::Everypolitician::Education::Generator.priority
+  end
 end

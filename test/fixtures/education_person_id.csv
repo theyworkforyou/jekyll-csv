@@ -1,4 +1,4 @@
-id,name,organisation_name,role,subtitle,area,start_date,end_date
+person_id,name,organisation_name,role,subtitle,area,start_date,end_date
 3,Edward G. Cross,Gwebi Agricultural College,Diploma in Agriculture,,,,
 3,Edward G. Cross,University of Rhodesia,B Sc. Honours in Economics,,,,
 10,Thamsanqa Mahlangu,,Advanced Diploma in Purchasing and Supply,,,,
