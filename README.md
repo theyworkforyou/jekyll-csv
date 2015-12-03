@@ -26,6 +26,7 @@ In `_config.yml` add a section which points to a CSV of Education information:
 everypolitician:
   education: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv&id=1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM&gid=0
   sources: ...
+```
 
 ## Development
 
