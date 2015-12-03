@@ -23,9 +23,51 @@ Or install it yourself as:
 In `_config.yml` add a section which points to a CSV of Education information:
 
 ```yaml
-everypolitician:
-  education: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv&id=1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM&gid=0
-  sources: ...
+remote_csv:
+  education:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
+```
+
+In this default configuration it will fetch the CSV at the url specified in the source attribute. It will the use the key as the name for the data. In the example above `site.data.education` would be populated with the remote CSV.
+
+### Adding data to a collection
+
+Sometimes you might want this data to be associated with a collection, you can configure this in `_config.yml`:
+
+```yaml
+remote_csv:
+  education:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
+    collections:
+      - assembly_people
+      - senate_people
+```
+
+This will associate the data in the source CSV with the `assembly_people` and `senate_people` collections. For this to work correctly each document in the collections will need to specify an `id` in its frontmatter which matches the `id` column in the CSV. If you need to override this then you can specify that:
+
+```yaml
+remote_csv:
+  education:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
+    csv_id_field: person_id
+    collections:
+      assembly_people: pombola_id
+      senate_people: kuvakazim_id
+```
+
+This will use the `person_id` column in the CSV and match it to `assembly_people` using the `pombola_id` property in the frontmatter and the `senate_people` using the `kuvakazim_id` property. This means that each person in the collection will have an `education` property.
+
+Assuming that the CSV file has `person_id`, `organization_name` and `qualification` columns you could then use this in a template listing people as follows:
+
+```liquid
+{% for person in site.assembly_people %}
+  <h2>{{ person.name }} Education</h2>
+  <ul>
+  {% for education in person.education %}
+    <li>Organisation: {{ education.organization_name }} | Qualification: {{ education.qualification }}</li>
+  {% endfor %}
+  </ul>
+{% endfor %}
 ```
 
 ## Development
