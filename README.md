@@ -1,6 +1,6 @@
 # Jekyll::RemoteCsv [![Build Status](https://travis-ci.org/everypolitician/jekyll-remote_csv.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-remote_csv)
 
-This plugin allows you to specify remote CSVs to be included in `site.data`. It also provides a way for you to add this data to collection documents.
+This plugin allows you to specify remote CSVs to be turned into collections. It also provides a way for you to associate these collections with other collections.
 
 ## Installation
 
@@ -28,11 +28,17 @@ remote_csv:
     source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
 ```
 
-In this default configuration it will fetch the CSV at the url specified in the source attribute. It will the use the key as the name for the data. In the example above `site.data.education` would be populated with the remote CSV.
+In this default configuration it will fetch the CSV at the url specified in the source attribute. It will the use the key as the name for the collection. In the example above `site.education` would be populated with the remote CSV:
 
-### Adding data to a collection
+```liquid
+{% for item in site.education %}
+  <p>{{ item.role }}</p>
+{% endfor %}
+```
 
-Sometimes you might want this data to be associated with a collection, you can configure this in `_config.yml`:
+### Associating with other collections
+
+Sometimes you might want this collection to be associated with another collection, you can configure this in `_config.yml`:
 
 ```yaml
 remote_csv:
@@ -43,7 +49,7 @@ remote_csv:
       - senate_people
 ```
 
-This will associate the data in the source CSV with the `assembly_people` and `senate_people` collections. For this to work correctly each document in the collections will need to specify an `id` in its frontmatter which matches the `id` column in the CSV. If you need to override this then you can specify that:
+This will associate the collection in the source CSV with the `assembly_people` and `senate_people` collections. For this to work correctly each document in the collections will need to specify an `id` in its frontmatter which matches the `id` column in the CSV. If you need to override this then you can specify that:
 
 ```yaml
 remote_csv:
@@ -69,6 +75,24 @@ Assuming that the CSV file has `person_id`, `organization_name` and `qualificati
   </ul>
 {% endfor %}
 ```
+
+### Outputting a collection
+
+If you want to output the collection then you will need to provide a key to use for the output item's slug.
+
+```yaml
+remote_csv:
+  education:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
+    collection_slug_field: organisation_name
+
+collections:
+  education:
+    output: true
+```
+
+With the above configuration the education source CSV will be turned into a collection and then each item in the collection will be output at `/education/organisation-name-slugified`.
+
 
 ## Development
 
