@@ -4,6 +4,7 @@ require 'open-uri'
 require 'csv'
 
 require 'jekyll'
+require 'jekyll/everypolitician'
 
 module Jekyll
   module Everypolitician
