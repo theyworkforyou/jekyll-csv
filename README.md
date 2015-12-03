@@ -1,8 +1,6 @@
-# Jekyll::Everypolitician::Education
+# Jekyll::Everypolitician::Education [![Build Status](https://travis-ci.org/everypolitician/jekyll-everypolitician-education.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-everypolitician-education)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jekyll/everypolitician/education`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Designed to bo be used in conjunction with [jekyll-everypolitician](https://github.com/everypolitician/jekyll-everypolitician). This allows you to add a CSV of Education history to display for a person.
 
 ## Installation
 
@@ -22,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In `_config.yml` add a section which points to a CSV of Education information:
+
+```yaml
+everypolitician:
+  education: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv&id=1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM&gid=0
+  sources: ...
 
 ## Development
 
@@ -32,10 +35,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jekyll-everypolitician-education.
+Bug reports and pull requests are welcome on GitHub at https://github.com/everypolitician/jekyll-everypolitician-education.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
