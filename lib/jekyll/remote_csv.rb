@@ -16,6 +16,15 @@ module Jekyll
           csv_string = open(conf['source']).read
           csv_data = CSV.parse(csv_string, headers: true).map(&:to_hash)
           site.collections[source_name] = make_collection(site, source_name, conf, csv_data)
+          if conf['group_by']
+            group_name = "#{source_name}_by_#{conf['group_by']}"
+            site.collections[group_name] = make_group_collection(site, source_name, group_name, conf, site.collections[source_name].docs)
+            site.collections[source_name].docs.each do |doc|
+              doc.data[group_name] = site.collections[group_name].docs.find do |group|
+                group['title'] == doc[conf['group_by']]
+              end
+            end
+          end
           next unless conf['collections']
           conf['collections'].each do |collection_name, key|
             next unless site.collections.key?(collection_name)
@@ -26,8 +35,8 @@ module Jekyll
                 item[csv_id_field] == doc[key]
               end
               doc.data[source_name].each do |source_doc|
-                source_doc.data[collection_name] ||= []
-                source_doc.data[collection_name] << doc
+                reverse_relation_name = conf.fetch('reverse_relation_name', collection_name)
+                source_doc.data[reverse_relation_name] = doc
               end
             end
           end
@@ -42,6 +51,22 @@ module Jekyll
           doc = Document.new(path, collection: collection, site: site)
           doc.merge_data!(item)
           if site.layouts.key?(source_name)
+            doc.merge_data!('layout' => source_name)
+          end
+          collection.docs << doc
+        end
+        collection
+      end
+
+      def make_group_collection(site, source_name, group_name, conf, data)
+        collection = Collection.new(site, group_name)
+        data.group_by { |d| d[conf['group_by']] }.each do |name, items|
+          path = File.join(site.source, "_#{group_name}", "#{Jekyll::Utils.slugify(name)}.md")
+          doc = Document.new(path, collection: collection, site: site)
+          doc.merge_data!('title' => name, source_name => items)
+          if site.layouts.key?(group_name)
+            doc.merge_data!('layout' => group_name)
+          elsif site.layouts.key?(source_name)
             doc.merge_data!('layout' => source_name)
           end
           collection.docs << doc
