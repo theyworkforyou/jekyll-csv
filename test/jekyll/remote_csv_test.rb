@@ -89,4 +89,16 @@ class Jekyll::RemoteCsvTest < Minitest::Test
     doc = site.collections['education'].docs.first
     assert_equal 'gwebi-agricultural-college', doc.basename_without_ext
   end
+
+  def test_group_by
+    site.config['remote_csv']['education']['group_by'] = 'role'
+    site.generate
+    refute_nil site.collections['education_by_role']
+    doc = site.collections['education_by_role'].docs.find { |er| er['title'] == 'Bachelor of Laws (LLB)' }
+    refute_nil doc
+    assert_equal 2, doc['education'].length
+    edu_doc = doc['education'].first
+    refute_nil edu_doc
+    assert_equal 'Bachelor of Laws (LLB)', edu_doc['education_by_role']['title']
+  end
 end

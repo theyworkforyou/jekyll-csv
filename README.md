@@ -93,6 +93,54 @@ collections:
 
 With the above configuration the education source CSV will be turned into a collection and then each item in the collection will be output at `/education/organisation-name-slugified`.
 
+### Grouping records
+
+Sometimes you might want to group the records by a certain field, perhaps you want to display all the people who went to Harvard University for example. To make this work you can specify a `group_by` option:
+
+```yaml
+remote_csv:
+  education:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
+    group_by: university
+
+collections:
+  education_by_university:
+    output: true
+```
+
+Then in your `_layouts/education_by_university.html` file:
+
+```liquid
+<h1>{{ page.title }}</h1>
+{% for education in page.education %}
+  <p>{{ education.name }}</p>
+  <p>{{ education.degree }}</p>
+{% endfor %}
+```
+
+If you want to connect back to another collection you can also specify a `reverse_relation_name` option:
+
+```yaml
+remote_csv:
+  education:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
+    group_by: university
+    reverse_relation_name: person
+    collections:
+      people: person_id
+
+collections:
+  education_by_university:
+    output: true
+```
+
+```liquid
+<h1>{{ page.title }}</h1>
+{% for education in page.education %}
+  <p><a href="{{ education.person.url }}">{{ education.person.name }}</a></p>
+  <p>{{ education.degree }}</p>
+{% endfor %}
+```
 
 ## Development
 
