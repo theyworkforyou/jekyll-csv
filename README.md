@@ -32,7 +32,7 @@ In this default configuration it will fetch the CSV at the url specified in the 
 
 ```liquid
 {% for item in site.education %}
-  <p>{{ item.role }}</p>
+  <p>{{ item.name }}</p>
 {% endfor %}
 ```
 
