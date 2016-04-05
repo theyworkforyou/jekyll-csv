@@ -18,7 +18,7 @@ class Jekyll::CsvTest < Minitest::Test
 
   def add_people_collection_to_site
     people = Jekyll::Collection.new(site, 'people')
-    path = File.join(site.source, "_people", "test.md")
+    path = File.join(site.source, '_people', 'test.md')
     person = Jekyll::Document.new(path, collection: people, site: site)
     person.data['id'] = '22'
     people.docs << person
