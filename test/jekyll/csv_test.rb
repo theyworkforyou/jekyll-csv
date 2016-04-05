@@ -53,7 +53,7 @@ class Jekyll::CsvTest < Minitest::Test
   end
 
   def test_collection_slug_field
-    site.config['csv']['education']['collection_slug_field'] = 'organisation_name'
+    site.config['csv']['education']['slug'] = 'organisation_name'
     site.generate
     doc = site.collections['education'].docs.first
     assert_equal 'gwebi-agricultural-college', doc.basename_without_ext

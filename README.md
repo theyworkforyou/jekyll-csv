@@ -44,7 +44,7 @@ If you want to output the collection then you will need to provide a key to use 
 csv:
   education:
     source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
-    collection_slug_field: organisation_name
+    slug: organisation_name
 
 collections:
   education:
