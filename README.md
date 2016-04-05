@@ -1,4 +1,4 @@
-# Jekyll::Csv [![Build Status](https://travis-ci.org/everypolitician/jekyll-csv.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-csv)
+# Jekyll::Csv [![Build Status](https://travis-ci.org/theyworkforyou/jekyll-csv.svg?branch=master)](https://travis-ci.org/theyworkforyou/jekyll-csv)
 
 This plugin takes a path or URL to a CSV file and uses the data to populate a [Jekyll Collection](https://jekyllrb.com/docs/collections/).
 
@@ -61,7 +61,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/everypolitician/jekyll-csv.
+Bug reports and pull requests are welcome on GitHub at https://github.com/theyworkforyou/jekyll-csv.
 
 
 ## License
