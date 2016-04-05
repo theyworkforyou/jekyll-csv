@@ -1,4 +1,4 @@
-# Jekyll::RemoteCsv [![Build Status](https://travis-ci.org/everypolitician/jekyll-remote_csv.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-remote_csv)
+# Jekyll::Csv [![Build Status](https://travis-ci.org/everypolitician/jekyll-csv.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-csv)
 
 This plugin takes a path or URL to a CSV file and uses the data to populate a [Jekyll Collection](https://jekyllrb.com/docs/collections/).
 
@@ -7,7 +7,7 @@ This plugin takes a path or URL to a CSV file and uses the data to populate a [J
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jekyll-remote_csv'
+gem 'jekyll-csv'
 ```
 
 And then execute:
@@ -16,19 +16,19 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-remote_csv
+    $ gem install jekyll-csv
 
 ## Usage
 
 In `_config.yml` add a section which points to a CSV of Education information:
 
 ```yaml
-remote_csv:
+csv:
   education:
     source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
 ```
 
-In this default configuration it will fetch the CSV at the url specified in the source attribute. It will the use the key as the name for the collection. In the example above `site.education` would be populated with the remote CSV:
+In this default configuration it will fetch the CSV at the url specified in the source attribute. It will the use the key as the name for the collection. In the example above `site.education` would be populated with the CSV:
 
 ```liquid
 {% for item in site.education %}
@@ -41,7 +41,7 @@ In this default configuration it will fetch the CSV at the url specified in the 
 If you want to output the collection then you will need to provide a key to use for the output item's slug.
 
 ```yaml
-remote_csv:
+csv:
   education:
     source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
     collection_slug_field: organisation_name
@@ -61,7 +61,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/everypolitician/jekyll-remote_csv.
+Bug reports and pull requests are welcome on GitHub at https://github.com/everypolitician/jekyll-csv.
 
 
 ## License

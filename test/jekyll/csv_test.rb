@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class Jekyll::RemoteCsvTest < Minitest::Test
+class Jekyll::CsvTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Jekyll::RemoteCsv::VERSION
+    refute_nil ::Jekyll::Csv::VERSION
   end
 
   def site
@@ -10,8 +10,8 @@ class Jekyll::RemoteCsvTest < Minitest::Test
   end
 
   def setup
-    site.config['remote_csv'] ||= {}
-    site.config['remote_csv']['education'] = {
+    site.config['csv'] ||= {}
+    site.config['csv']['education'] = {
       'source' => 'test/fixtures/education.csv'
     }
   end
@@ -42,18 +42,18 @@ class Jekyll::RemoteCsvTest < Minitest::Test
   end
 
   def test_adding_another_collection
-    site.config['remote_csv']['foo_bar'] = site.config['remote_csv']['education']
+    site.config['csv']['foo_bar'] = site.config['csv']['education']
     site.generate
     assert_equal 9, site.collections['education'].docs.size
     assert_equal 9, site.collections['foo_bar'].docs.size
   end
 
   def test_it_has_a_low_priority
-    assert_equal :low, Jekyll::RemoteCsv::Generator.priority
+    assert_equal :low, Jekyll::Csv::Generator.priority
   end
 
   def test_collection_slug_field
-    site.config['remote_csv']['education']['collection_slug_field'] = 'organisation_name'
+    site.config['csv']['education']['collection_slug_field'] = 'organisation_name'
     site.generate
     doc = site.collections['education'].docs.first
     assert_equal 'gwebi-agricultural-college', doc.basename_without_ext

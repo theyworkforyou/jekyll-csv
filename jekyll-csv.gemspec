@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll/remote_csv/version'
+require 'jekyll/csv/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'jekyll-remote_csv'
-  spec.version       = Jekyll::RemoteCsv::VERSION
+  spec.name          = 'jekyll-csv'
+  spec.version       = Jekyll::Csv::VERSION
   spec.authors       = ['Chris Mytton']
   spec.email         = ['chrismytton@gmail.com']
 
-  spec.summary       = 'Specify remote CSVs to be included in site.data'
-  spec.homepage      = 'https://github.com/everypolitician/jekyll-remote_csv'
+  spec.summary       = 'Load CSVs into Jekyll Collections'
+  spec.homepage      = 'https://github.com/everypolitician/jekyll-csv'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

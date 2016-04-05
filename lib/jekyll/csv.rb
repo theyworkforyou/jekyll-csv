@@ -1,4 +1,4 @@
-require 'jekyll/remote_csv/version'
+require 'jekyll/csv/version'
 
 require 'open-uri'
 require 'csv'
@@ -6,13 +6,13 @@ require 'csv'
 require 'jekyll'
 
 module Jekyll
-  module RemoteCsv
+  module Csv
     class Generator < ::Jekyll::Generator
       priority :low
 
       def generate(site)
-        return unless site.config['remote_csv']
-        site.config['remote_csv'].each do |source_name, conf|
+        return unless site.config['csv']
+        site.config['csv'].each do |source_name, conf|
           csv_string = open(conf['source']).read
           csv_data = CSV.parse(csv_string, headers: true).map(&:to_hash)
           site.collections[source_name] = make_collection(site, source_name, conf, csv_data)
