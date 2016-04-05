@@ -1,6 +1,6 @@
 # Jekyll::RemoteCsv [![Build Status](https://travis-ci.org/everypolitician/jekyll-remote_csv.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-remote_csv)
 
-This plugin allows you to specify remote CSVs to be turned into collections. It also provides a way for you to associate these collections with other collections.
+This plugin takes a path or URL to a CSV file and uses the data to populate a [Jekyll Collection](https://jekyllrb.com/docs/collections/).
 
 ## Installation
 
@@ -36,46 +36,6 @@ In this default configuration it will fetch the CSV at the url specified in the 
 {% endfor %}
 ```
 
-### Associating with other collections
-
-Sometimes you might want this collection to be associated with another collection, you can configure this in `_config.yml`:
-
-```yaml
-remote_csv:
-  education:
-    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
-    collections:
-      - assembly_people
-      - senate_people
-```
-
-This will associate the collection in the source CSV with the `assembly_people` and `senate_people` collections. For this to work correctly each document in the collections will need to specify an `id` in its frontmatter which matches the `id` column in the CSV. If you need to override this then you can specify that:
-
-```yaml
-remote_csv:
-  education:
-    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
-    csv_id_field: person_id
-    collections:
-      assembly_people: pombola_id
-      senate_people: kuvakazim_id
-```
-
-This will use the `person_id` column in the CSV and match it to `assembly_people` using the `pombola_id` property in the frontmatter and the `senate_people` using the `kuvakazim_id` property. This means that each person in the collection will have an `education` property.
-
-Assuming that the CSV file has `person_id`, `organization_name` and `qualification` columns you could then use this in a template listing people as follows:
-
-```liquid
-{% for person in site.assembly_people %}
-  <h2>{{ person.name }} Education</h2>
-  <ul>
-  {% for education in person.education %}
-    <li>Organisation: {{ education.organization_name }} | Qualification: {{ education.qualification }}</li>
-  {% endfor %}
-  </ul>
-{% endfor %}
-```
-
 ### Outputting a collection
 
 If you want to output the collection then you will need to provide a key to use for the output item's slug.
@@ -92,55 +52,6 @@ collections:
 ```
 
 With the above configuration the education source CSV will be turned into a collection and then each item in the collection will be output at `/education/organisation-name-slugified`.
-
-### Grouping records
-
-Sometimes you might want to group the records by a certain field, perhaps you want to display all the people who went to Harvard University for example. To make this work you can specify a `group_by` option:
-
-```yaml
-remote_csv:
-  education:
-    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
-    group_by: university
-
-collections:
-  education_by_university:
-    output: true
-```
-
-Then in your `_layouts/education_by_university.html` file:
-
-```liquid
-<h1>{{ page.title }}</h1>
-{% for education in page.education %}
-  <p>{{ education.name }}</p>
-  <p>{{ education.degree }}</p>
-{% endfor %}
-```
-
-If you want to connect back to another collection you can also specify a `reverse_relation_name` option:
-
-```yaml
-remote_csv:
-  education:
-    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
-    group_by: university
-    reverse_relation_name: person
-    collections:
-      people: person_id
-
-collections:
-  education_by_university:
-    output: true
-```
-
-```liquid
-<h1>{{ page.title }}</h1>
-{% for education in page.education %}
-  <p><a href="{{ education.person.url }}">{{ education.person.name }}</a></p>
-  <p>{{ education.degree }}</p>
-{% endfor %}
-```
 
 ## Development
 
