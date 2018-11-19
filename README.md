@@ -53,6 +53,32 @@ collections:
 
 With the above configuration the education source CSV will be turned into a collection and then each item in the collection will be output at `/education/organisation-name-slugified`.
 
+### Enforce mandatory fields
+
+You can filter-out lines with empty fields what are mandatory for your use-case.
+
+```yaml
+csv:
+  education:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
+    mandatory:
+      - organisation_name
+      - id
+```
+
+### Convert value to integer
+
+If you want to have some fields converted to integer (e.g. for numeric sorting in Liquid by: `{% assign education = site.education | sort: "id" %}`):
+
+```yaml
+csv:
+  education:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv
+    convert_to_int:
+      - id
+      - price
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
