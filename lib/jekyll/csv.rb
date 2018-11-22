@@ -45,7 +45,7 @@ module Jekyll
           reject
         end
         data.map do |item|
-          conf['convert_to_int'].each do |field|
+          conf['convert_to_int'].to_a.each do |field|
             unless item[field].nil?
               item.merge!(field + '_int' => item[field].gsub(/\s+/, '').to_i)
             end
