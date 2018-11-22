@@ -36,7 +36,7 @@ module Jekyll
         data = CSV.parse(csv_string, headers: true).map(&:to_hash)
         data.delete_if do |item|
           reject = false
-          conf['mandatory'].each do |field|
+          conf['mandatory'].to_a.each do |field|
             if item[field].nil? || item[field].empty?
               reject = true
               break
