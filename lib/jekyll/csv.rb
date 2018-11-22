@@ -33,7 +33,25 @@ module Jekyll
       end
 
       def csv_data
-        @csv_data ||= CSV.parse(csv_string, headers: true).map(&:to_hash)
+        data = CSV.parse(csv_string, headers: true).map(&:to_hash)
+        data.delete_if do |item|
+          reject = false
+          conf['mandatory'].to_a.each do |field|
+            if item[field].nil? || item[field].empty?
+              reject = true
+              break
+            end
+          end
+          reject
+        end
+        data.map do |item|
+          conf['convert_to_int'].to_a.each do |field|
+            unless item[field].nil?
+              item.merge!(field + '_int' => item[field].gsub(/\s+/, '').to_i)
+            end
+          end
+        end
+        @csv_data ||= data
       end
 
       def csv_string
