@@ -22,6 +22,7 @@ module Jekyll
           doc.merge_data!(item)
           if site.layouts.key?(collection_name)
             doc.merge_data!({'layout' => collection_name})
+            doc.merge_data!({'slug' => item[slug_field]})
           end
           collection.docs << doc
         end
