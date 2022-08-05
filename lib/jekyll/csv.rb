@@ -21,7 +21,8 @@ module Jekyll
           doc = Document.new(path, collection: collection, site: site)
           doc.merge_data!(item)
           if site.layouts.key?(collection_name)
-            doc.merge_data!('layout' => collection_name)
+            doc.merge_data!({'layout' => collection_name})
+            doc.merge_data!({'slug' => item[slug_field]})
           end
           collection.docs << doc
         end
@@ -37,7 +38,7 @@ module Jekyll
       end
 
       def csv_string
-        @csv_string ||= open(conf['source']).read
+        @csv_string ||= URI.open(conf['source']).read
       end
 
       def slug_field
