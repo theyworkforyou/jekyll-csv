@@ -37,7 +37,7 @@ module Jekyll
       end
 
       def csv_string
-        @csv_string ||= open(conf['source']).read
+        @csv_string ||= URI.open(conf['source']).read
       end
 
       def slug_field
